@@ -19,10 +19,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESC       &kp Q  &kp W  &kp E             &kp R             &kp T             &kp Y        &kp U        &kp I      &kp O    &kp P          &kp LA(S)
-&kp TAB       &kp A  &kp S  &kp D             &kp F             &kp G             &kp H        &kp J        &kp K      &kp L    &kp BACKSPACE  &kp ENTER
-&kp LEFT_ALT  &kp Z  &kp X  &kp C             &kp V             &kp B             &kp N        &kp M        &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
-                            &kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_SHIFT    &lt 1 SPACE  &lt 3 ENTER  &kp RALT
+&kp ESC       &kp Q  &kp W  &kp E             &kp R             &kp T             &kp Y        &kp U        &kp I   &kp O   &kp P          &trans
+&kp TAB       &kp A  &kp S  &kp D             &kp F             &kp G             &kp H        &kp J        &kp K   &kp L   &kp BACKSPACE  &kp ENTER
+&kp LEFT_ALT  &kp Z  &kp X  &kp C             &kp V             &kp B             &kp N        &kp M        &trans  &trans  &trans         &trans
+                            &kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_SHIFT    &lt 1 SPACE  &lt 3 ENTER  &trans
             >;
         };
 
@@ -34,10 +34,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans    &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp LS(N3)  &kp DOLLAR  &kp PERCENT    &kp AMPERSAND  &kp SLASH   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL     &trans
-&trans    &kp AT           &trans             &kp LA(E)   &trans      &trans         &kp COMMA      &kp PERIOD  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp QUESTION  &trans
-&kp LALT  &trans           &trans             &trans      &trans      &trans         &kp SEMICOLON  &kp COLON   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans        &trans
-                                              &kp LCTRL   &kp LGUI    &mo 3          &none          &trans      &trans
+&trans    &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp LS(N3)  &kp DOLLAR      &kp PERCENT    &kp AMPERSAND  &kp SLASH   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL         &trans
+&trans    &kp AT           &kp TILDE          &kp LA(E)   &kp UNDERSCORE  &kp MINUS      &kp SEMICOLON  &kp COMMA   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp QUESTION      &trans
+&kp LALT  &trans           &trans             &trans      &kp ASTERISK    &kp PLUS       &kp COLON      &kp PERIOD  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SINGLE_QUOTE  &trans
+                                              &kp LCTRL   &kp LGUI        &mo 3          &none          &trans      &trans
             >;
         };
 
