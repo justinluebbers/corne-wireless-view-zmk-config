@@ -37,7 +37,7 @@
 &trans    &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp LS(N3)  &kp DOLLAR      &kp PERCENT    &kp AMPERSAND  &kp SLASH   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL         &trans
 &trans    &kp AT           &kp TILDE          &kp LA(E)   &kp UNDERSCORE  &kp MINUS      &kp SEMICOLON  &kp COMMA   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp QUESTION      &trans
 &kp LALT  &kp LESS_THAN    &kp GREATER_THAN   &kp HASH    &kp ASTERISK    &kp PLUS       &kp COLON      &kp PERIOD  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SINGLE_QUOTE  &trans
-                                              &kp LCTRL   &kp LGUI        &mo 3          &none          &trans      &trans
+                                              &kp LCTRL   &kp LGUI        &trans         &none          &trans      &trans
             >;
         };
 
