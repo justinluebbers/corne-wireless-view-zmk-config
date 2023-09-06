@@ -34,10 +34,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans    &kp N1           &kp N2             &kp N3      &kp N4      &kp N5         &kp N6         &kp N7     &kp N8                &kp N9                 &kp N0     &trans
-&trans    &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp LS(N3)  &kp DOLLAR  &kp PERCENT    &kp AMPERSAND  &kp SLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &trans
-&kp LALT  &trans           &trans             &trans      &trans      &trans         &trans         &trans     &trans                &trans                 &trans     &trans
-                                              &kp LCTRL   &kp LGUI    &mo 3          &none          &trans     &trans
+&trans    &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp LS(N3)  &kp DOLLAR  &kp PERCENT    &kp AMPERSAND  &kp SLASH   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL     &trans
+&trans    &kp AT           &trans             &kp LA(E)   &trans      &trans         &kp COMMA      &kp PERIOD  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp QUESTION  &trans
+&kp LALT  &trans           &trans             &trans      &trans      &trans         &kp SEMICOLON  &kp COLON   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans        &trans
+                                              &kp LCTRL   &kp LGUI    &mo 3          &none          &trans      &trans
             >;
         };
 
@@ -58,10 +58,10 @@
 
         Navigation {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &kp UP    &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans     &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans    &trans
+&trans    &trans  &kp N7  &kp N8     &kp N9    &trans    &trans  &trans    &kp UP    &trans     &trans  &trans
+&trans    &kp N0  &kp N4  &kp N5     &kp N6    &trans    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&kp LALT  &trans  &kp N1  &kp N2     &kp N3    &trans    &trans  &trans    &trans    &trans     &trans  &trans
+                          &kp LCTRL  &kp LGUI  &trans    &trans  &trans    &trans
             >;
         };
     };
